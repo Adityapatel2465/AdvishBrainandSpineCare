@@ -319,3 +319,232 @@ footer {
 .social-icons a:hover {
     color: #6fa9ff;
 }
+
+/* =============================================
+   TABLET — max 768px
+   ============================================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        margin: 10px;
+        padding: 12px 20px;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* HERO */
+    .hero {
+        margin: 10px;
+        padding: 24px 20px;
+    }
+
+    .hero-name {
+        font-size: 28px;
+    }
+
+    .hero-subtitle {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .hero-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* DOCTOR */
+    .doctor-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 30px 20px;
+        gap: 24px;
+    }
+
+    .doctor-photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .doctor-photo img {
+        width: 180px;
+        height: 320px;
+    }
+
+    .doctor-info {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .doctor-divider {
+        margin: 0 auto 16px auto;
+    }
+
+    .doctor-highlights {
+        justify-content: center;
+    }
+
+    /* DEGREES */
+    .degrees-section {
+        margin: 10px;
+        padding: 24px 16px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .degree-card {
+        width: calc(50% - 8px);
+        padding: 20px;
+    }
+
+    /* ABOUT CLINIC */
+    .about-clinic {
+        flex-direction: column;
+        margin: 10px;
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+    .image-grid {
+        width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .img-box {
+        height: 130px;
+    }
+
+}
+
+/* =============================================
+   MOBILE — max 480px
+   ============================================= */
+
+@media (max-width: 480px) {
+
+    /* NAVBAR */
+    .navbar {
+        margin: 8px;
+        padding: 10px 14px;
+        border-radius: 10px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* HERO */
+    .hero {
+        margin: 8px;
+        padding: 20px 14px;
+        border-radius: 12px;
+    }
+
+    .hero-brand {
+        gap: 14px;
+    }
+
+    .hero-logo {
+        width: 58px;
+        height: 58px;
+    }
+
+    .hero-name {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .hero-subtitle {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    /* DOCTOR */
+    .doctor-section {
+        margin: 8px;
+        padding: 24px 14px;
+        border-radius: 12px;
+    }
+
+    .doctor-photo img {
+        width: 150px;
+        height: 266px;
+    }
+
+    .doctor-name {
+        font-size: 20px;
+    }
+
+    .doctor-desc {
+        font-size: 14px;
+    }
+
+    .highlight-item {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    /* DEGREES */
+    .degrees-section {
+        margin: 8px;
+        padding: 20px 14px;
+        border-radius: 12px;
+    }
+
+    .degree-card {
+        width: 100%;
+        padding: 16px;
+    }
+
+    /* ABOUT CLINIC */
+    .about-clinic {
+        margin: 8px;
+        padding: 20px 14px;
+        border-radius: 12px;
+    }
+
+    .img-box {
+        height: 110px;
+    }
+
+    .about-text h2 {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px 14px;
+        font-size: 13px;
+    }
+
+}

@@ -1,0 +1,23 @@
+# All JS files
+js/
+
+# Unused HTML files at root
+admin-login.html
+admin.html
+Appointment.html
+Protect admin.html
+
+# Temp files
+Text.txt
+
+# Entire server folder
+server/
+
+# Environment variables
+.env
+
+# Logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

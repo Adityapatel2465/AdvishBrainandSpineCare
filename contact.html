@@ -28,11 +28,11 @@
             <p class="panel-intro">Choose the most convenient way to contact the clinic.</p>
             <div class="contact-card">
                 <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
-                <div><h3>Phone</h3><p><a href="tel:+919909956454">+91 9909956454</a></p></div>
+                <div><h3>Phone</h3><p><a href="tel:+919909956454">+91 99099 56454</a></p></div>
             </div>
             <div class="contact-card">
                 <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
-                <div><h3>Email</h3><p><a href="mailto:pratikpatel6590@gmail.com">pratikpatel6590@gmail.com</a></p></div>
+                <div><h3>Email</h3><p><a href="mailto:adityapatel2465@gmail.com">adityapatel2465@gmail.com</a></p></div>
             </div>
             <div class="contact-card">
                 <div class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
@@ -40,7 +40,7 @@
             </div>
             <div class="contact-actions">
                 <a class="button button-blue" href="tel:+919909956454"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call the Clinic</a>
-                <a class="button button-soft" href="mailto:pratikpatel6590@gmail.com"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send an Email</a>
+                <a class="button button-soft" href="mailto:adityapatel2465@gmail.com"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send an Email</a>
             </div>
         </section>
         <aside class="contact-panel">
@@ -91,7 +91,7 @@
     <div class="footer-inner">
         <div class="social-icons">
             <a href="https://www.instagram.com/advishbrainandspinecare0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-            <a href="mailto:pratikpatel6590@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto:adityapatel2465@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
             <a href="tel:+919909956454" aria-label="Call clinic"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
         </div>
         <p>© 2026 Advish Brain and Spine Care. All Rights Reserved.</p>
@@ -112,10 +112,10 @@
                 if (r.ok) { form.reset(); show('Thank you! Your request has been sent. The clinic will call you to confirm.', true); return; }
                 return r.json().then(function (data) {
                     var msg = data && data.errors ? data.errors.map(function (er) { return er.message; }).join(' ') : '';
-                    show((msg || 'Sorry, your request could not be sent.') + ' You can also call +91 9909956454.', false);
+                    show((msg || 'Sorry, your request could not be sent.') + ' You can also call +91 99099 56454.', false);
                 });
             })
-            .catch(function () { show('Sorry, something went wrong. Please check your connection or call +91 9909956454.', false); })
+            .catch(function () { show('Sorry, something went wrong. Please check your connection or call +91 99099 56454.', false); })
             .finally(function () { btn.disabled = false; });
     });
 })();
